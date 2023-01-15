@@ -1,3 +1,4 @@
+import '../App.css';
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 function ImageViewer({imagesNames}) {
@@ -8,7 +9,7 @@ function ImageViewer({imagesNames}) {
                 <img 
                     src={require(`../storage/images/${name}.jpeg`)} 
                     alt={name} 
-                    style={{width: "30rem", height: "20rem"}} 
+                    className="App-image"
                 />
             </Carousel.Item>
         ))}

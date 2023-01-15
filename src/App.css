@@ -28,7 +28,8 @@
   color: #61dafb;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 48px;
+.App-image {
+  margin: 0 auto;
+  width: 30rem!important;
+  height: 20rem!important;
 }
